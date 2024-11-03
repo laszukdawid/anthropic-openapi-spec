@@ -1,0 +1,240 @@
+openapi: 3.0.0
+info:
+  title: Anthropic Message Batches Creation API
+  version: 1.0.0
+  description: API for creating message batches with Anthropic's language models. This specification is based on the documentation at https://docs.anthropic.com/en/api/creating-message-batches.
+
+servers:
+  - url: https://api.anthropic.com/v1
+
+paths:
+  /message_batches:
+    post:
+      summary: Create a new message batch
+      operationId: createMessageBatch
+      tags:
+        - MessageBatches
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MessageBatchRequest"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageBatchResponse"
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: Your unique API key for authentication
+    AnthropicVersionHeader:
+      type: apiKey
+      in: header
+      name: anthropic-version
+      description: The version of the Anthropic API you want to use
+    AnthropicBetaHeader:
+      type: apiKey
+      in: header
+      name: anthropic-beta
+      description: Optional header to specify the beta version(s) you want to use
+
+  schemas:
+    MessageBatchRequest:
+      type: object
+      required:
+        - requests
+      properties:
+        requests:
+          type: array
+          items:
+            $ref: "#/components/schemas/BatchRequest"
+          description: List of requests for prompt completion
+
+    BatchRequest:
+      type: object
+      required:
+        - custom_id
+        - message
+      properties:
+        custom_id:
+          type: string
+          description: Developer-provided ID for each request in a Message Batch
+        message:
+          $ref: "#/components/schemas/MessageRequest"
+
+    MessageRequest:
+      type: object
+      required:
+        - model
+        - messages
+      properties:
+        model:
+          type: string
+          description: The model to use for completion
+        messages:
+          type: array
+          items:
+            $ref: "#/components/schemas/Message"
+        max_tokens:
+          type: integer
+          description: The maximum number of tokens to generate before stopping
+        temperature:
+          type: number
+          description: Amount of randomness injected into the response
+        system:
+          type: string
+          description: System prompt
+        tools:
+          type: array
+          items:
+            $ref: "#/components/schemas/Tool"
+
+    Message:
+      type: object
+      required:
+        - role
+        - content
+      properties:
+        role:
+          type: string
+          enum: [user, assistant]
+        content:
+          oneOf:
+            - type: string
+            - type: array
+              items:
+                $ref: "#/components/schemas/ContentBlock"
+
+    ContentBlock:
+      oneOf:
+        - $ref: "#/components/schemas/TextBlock"
+        - $ref: "#/components/schemas/ImageBlock"
+
+    TextBlock:
+      type: object
+      required:
+        - type
+        - text
+      properties:
+        type:
+          type: string
+          enum: [text]
+        text:
+          type: string
+
+    ImageBlock:
+      type: object
+      required:
+        - type
+        - source
+      properties:
+        type:
+          type: string
+          enum: [image]
+        source:
+          $ref: "#/components/schemas/ImageSource"
+
+    ImageSource:
+      type: object
+      required:
+        - type
+        - media_type
+        - data
+      properties:
+        type:
+          type: string
+          enum: [base64]
+        media_type:
+          type: string
+          enum: [image/jpeg, image/png, image/gif, image/webp]
+        data:
+          type: string
+
+    Tool:
+      type: object
+      required:
+        - name
+        - input_schema
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        input_schema:
+          type: object
+
+    MessageBatchResponse:
+      type: object
+      required:
+        - id
+        - type
+        - status
+        - request_counts
+        - created_at
+        - expires_at
+      properties:
+        id:
+          type: string
+          description: Unique object identifier
+        type:
+          type: string
+          enum: [message_batch]
+          description: Object type, always "message_batch" for Message Batches
+        status:
+          type: string
+          enum: [in_progress, canceling, ended]
+          description: Processing status of the Message Batch
+        request_counts:
+          $ref: "#/components/schemas/RequestCounts"
+        created_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch was created
+        expires_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch will expire and end processing, which is 24 hours after creation
+        ended_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which processing for the Message Batch ended
+        archived_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch was archived and its results became unavailable
+        cancellation_initiated_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which cancellation was initiated for the Message Batch
+        results_url:
+          type: string
+          format: uri
+          description: URL to a .jsonl file containing the results of the Message Batch requests
+
+    RequestCounts:
+      type: object
+      properties:
+        processing:
+          type: integer
+        succeeded:
+          type: integer
+        errored:
+          type: integer
+        canceled:
+          type: integer
+        expired:
+          type: integer
+      description: Tallies requests within the Message Batch, categorized by their status
+
+security:
+  - ApiKeyAuth: []
+    AnthropicVersionHeader: []
+    AnthropicBetaHeader: []

@@ -1,0 +1,151 @@
+openapi: 3.0.0
+info:
+  title: Anthropic Message Batches Listing API
+  version: 1.0.0
+  description: API for listing message batches from Anthropic's language models. This specification is based on the documentation at https://docs.anthropic.com/en/api/listing-message-batches.
+
+servers:
+  - url: https://api.anthropic.com/v1
+
+paths:
+  /message/batches:
+    get:
+      summary: List Message Batches
+      operationId: listMessageBatches
+      tags:
+        - MessageBatches
+      parameters:
+        - in: query
+          name: before_id
+          schema:
+            type: string
+          description: ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately before this object.
+        - in: query
+          name: after_id
+          schema:
+            type: string
+          description: ID of the object to use as a cursor for pagination. When provided, returns the page of results immediately after this object.
+        - in: query
+          name: limit
+          schema:
+            type: integer
+            default: 20
+            minimum: 1
+            maximum: 100
+          description: Number of items to return per page. Defaults to 20. Ranges from 1 to 100.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MessageBatchListResponse"
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: Your unique API key for authentication
+    AnthropicVersionHeader:
+      type: apiKey
+      in: header
+      name: anthropic-version
+      description: The version of the Anthropic API you want to use
+    AnthropicBetaHeader:
+      type: apiKey
+      in: header
+      name: anthropic-beta
+      description: Optional header to specify the beta version(s) you want to use
+
+  schemas:
+    MessageBatchListResponse:
+      type: object
+      required:
+        - data
+        - has_more
+        - first_id
+        - last_id
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/MessageBatch"
+        has_more:
+          type: boolean
+          description: Indicates if there are more results in the requested page direction
+        first_id:
+          type: string
+          description: First ID in the data list. Can be used as the before_id for the previous page.
+        last_id:
+          type: string
+          description: Last ID in the data list. Can be used as the after_id for the next page.
+
+    MessageBatch:
+      type: object
+      required:
+        - id
+        - type
+        - status
+        - request_counts
+        - created_at
+        - expires_at
+      properties:
+        id:
+          type: string
+          description: Unique object identifier
+        type:
+          type: string
+          enum: [message_batch]
+          description: Object type, always "message_batch" for Message Batches
+        status:
+          type: string
+          enum: [in_progress, canceling, ended]
+          description: Processing status of the Message Batch
+        request_counts:
+          $ref: "#/components/schemas/RequestCounts"
+        created_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch was created
+        expires_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch will expire and end processing, which is 24 hours after creation
+        ended_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which processing for the Message Batch ended
+        archived_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which the Message Batch was archived and its results became unavailable
+        cancellation_initiated_at:
+          type: string
+          format: date-time
+          description: RFC 3339 datetime string representing the time at which cancellation was initiated for the Message Batch
+        results_url:
+          type: string
+          format: uri
+          description: URL to a .jsonl file containing the results of the Message Batch requests
+
+    RequestCounts:
+      type: object
+      properties:
+        processing:
+          type: integer
+        succeeded:
+          type: integer
+        errored:
+          type: integer
+        canceled:
+          type: integer
+        expired:
+          type: integer
+      description: Tallies requests within the Message Batch, categorized by their status
+
+security:
+  - ApiKeyAuth: []
+    AnthropicVersionHeader: []
+    AnthropicBetaHeader: []

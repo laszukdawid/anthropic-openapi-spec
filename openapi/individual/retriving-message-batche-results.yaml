@@ -1,0 +1,55 @@
+openapi: 3.0.0
+info:
+  title: Anthropic Message Batch Results API
+  version: 1.0.0
+  description: API for retrieving message batch results from Anthropic's language models
+
+servers:
+  - url: https://api.anthropic.com/v1
+
+paths:
+  /messages/batches/{message_batch_id}/results:
+    get:
+      summary: Retrieve Message Batch Results
+      operationId: getMessageBatchResults
+      tags:
+        - MessageBatches
+      parameters:
+        - in: path
+          name: message_batch_id
+          required: true
+          schema:
+            type: string
+          description: ID of the Message Batch
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/x-jsonl:
+              schema:
+                type: string
+                format: binary
+                description: A file containing the results of the Message Batch requests
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: Your unique API key for authentication
+    AnthropicVersionHeader:
+      type: apiKey
+      in: header
+      name: anthropic-version
+      description: The version of the Anthropic API you want to use
+    AnthropicBetaHeader:
+      type: apiKey
+      in: header
+      name: anthropic-beta
+      description: Optional header to specify the beta version(s) you want to use
+
+security:
+  - ApiKeyAuth: []
+    AnthropicVersionHeader: []
+    AnthropicBetaHeader: []
