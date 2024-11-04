@@ -1,0 +1,32 @@
+version: 3
+
+tasks:
+  spec:hosted:
+    desc: "Populate Antrhopic's OpenAPI spec from a hosted source"
+    vars:
+      input_file: tmp-ref.yaml
+      output_name: hosted_spec
+    cmds:
+      - task: download:anthropic
+      - "url=$(grep -oP '(?<=openapi_spec_url: ).*' {{.input_file}}) && curl -o {{.output_name}}.json $url"
+      - task: utils:convert
+        vars:
+          input: "{{.output_name}}.json"
+          output: "{{.output_name}}.yaml"
+
+  download:anthropic:
+    vars:
+      ref_url: https://raw.githubusercontent.com/anthropics/anthropic-sdk-typescript/refs/heads/main/.stats.yml
+    desc: "Download the latest version of the Anthropic OpenAPI spec"
+    status:
+      - test -f tmp-ref.yaml
+    cmds:
+      - curl -o tmp-ref.yaml {{.ref_url}}
+
+  utils:convert:
+    desc: "Convert a JSON file to YAML"
+    preconditions:
+      - test -f {{.input}}
+      - yq --version
+    cmds:
+      - yq eval -P -o=yaml {{.input}} | tee {{.output}}
