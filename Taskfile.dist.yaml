@@ -9,11 +9,27 @@ tasks:
     cmds:
       - task: download:anthropic
       - "url=$(grep -oP '(?<=openapi_spec_url: ).*' {{.input_file}}) && curl -o {{.output_name}}.json $url"
-      - task: utils:convert
+      - task: spec:fix
         vars:
-          input: "{{.output_name}}.json"
-          output: "{{.output_name}}.yaml"
+          FILENAME: "{{.output_name}}.json"
+      - task: spec:downgrade
+        vars:
+          FILENAME: "{{.output_name}}.json"
 
+  spec:downgrade:
+    desc: "Downgrade the OpenAPI spec to v3.0.0"
+    vars:
+      FILENAME: '{{.FILENAME| default "spec.json"}}'
+    cmds:
+      - python downgrade_spec.py --file {{.FILENAME}}
+
+  spec:fix:
+    desc: "Fix the OpenAPI spec"
+    vars:
+      FILENAME: '{{.FILENAME| default "spec.json"}}'
+    cmds:
+      - python fix_spec.py --file {{.FILENAME}}
+    
   download:anthropic:
     vars:
       ref_url: https://raw.githubusercontent.com/anthropics/anthropic-sdk-typescript/refs/heads/main/.stats.yml

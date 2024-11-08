@@ -24,6 +24,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -79,6 +90,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -157,6 +179,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -235,6 +268,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -527,6 +571,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -689,6 +744,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -767,6 +833,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -845,6 +922,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -1137,6 +1225,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -1299,6 +1398,17 @@
               "title": "Anthropic-Version"
             },
             "description": "The version of the Anthropic API you want to use.\n\nRead more about versioning and our version history [here](https://docs.anthropic.com/en/api/versioning)."
+          },
+          {
+            "name": "x-api-key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace.",
+              "title": "X-Api-Key"
+            },
+            "description": "Your unique API key for authentication. \n\nThis key is required in the header of all API requests, to authenticate your account and access Anthropic's services. Get your API key through the [Console](https://console.anthropic.com/settings/keys). Each key is scoped to a Workspace."
           }
         ],
         "responses": {
@@ -1548,7 +1658,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -1611,7 +1722,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -1627,7 +1737,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -1657,7 +1768,6 @@
             "type": "integer"
           },
           "display_number": {
-            "nullable": true,
             "anyOf": [
               {
                 "minimum": 0,
@@ -1665,7 +1775,8 @@
               }
             ],
             "description": "The X11 display number (e.g. 0, 1) for the display.",
-            "title": "Display Number"
+            "title": "Display Number",
+            "nullable": true
           }
         },
         "required": [
@@ -1842,7 +1953,7 @@
             "type": "array"
           },
           "messages": {
-            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter — there is no `\"system\"` role for input messages in the Messages API.",
+            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter \u2014 there is no `\"system\"` role for input messages in the Messages API.",
             "items": {
               "$ref": "#/components/schemas/BetaInputMessage"
             },
@@ -1941,7 +2052,7 @@
             "$ref": "#/components/schemas/Model"
           },
           "messages": {
-            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter — there is no `\"system\"` role for input messages in the Messages API.",
+            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter \u2014 there is no `\"system\"` role for input messages in the Messages API.",
             "items": {
               "$ref": "#/components/schemas/BetaInputMessage"
             },
@@ -2258,13 +2369,13 @@
             "type": "string"
           },
           "properties": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "object"
               }
             ],
-            "title": "Properties"
+            "title": "Properties",
+            "nullable": true
           }
         },
         "required": [
@@ -2311,7 +2422,6 @@
             "description": "Indicates if there are more results in the requested page direction."
           },
           "first_id": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
@@ -2321,10 +2431,10 @@
             "description": "First ID in the `data` list. Can be used as the `before_id` for the previous page.",
             "examples": [
               "msgbatch_013Zva2CMHLNnXjNJJKqJ2EF"
-            ]
+            ],
+            "nullable": true
           },
           "last_id": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
@@ -2334,7 +2444,8 @@
             "description": "Last ID in the `data` list. Can be used as the `after_id` for the next page.",
             "examples": [
               "msgbatch_01HkcTjaV5uDC8jWR4ZsDV8d"
-            ]
+            ],
+            "nullable": true
           }
         },
         "type": "object",
@@ -2414,7 +2525,6 @@
             "$ref": "#/components/schemas/Model"
           },
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -2427,10 +2537,10 @@
               }
             ],
             "description": "The reason that we stopped.\n\nThis may be one the following values:\n* `\"end_turn\"`: the model reached a natural stopping point\n* `\"max_tokens\"`: we exceeded the requested `max_tokens` or the model's maximum\n* `\"stop_sequence\"`: one of your provided custom `stop_sequences` was generated\n* `\"tool_use\"`: the model invoked one or more tools\n\nIn non-streaming mode this value is always non-null. In streaming mode, it is null in the `message_start` event and non-null otherwise.",
-            "title": "Stop Reason"
+            "title": "Stop Reason",
+            "nullable": true
           },
           "stop_sequence": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
@@ -2438,7 +2548,8 @@
             ],
             "default": null,
             "description": "Which custom stop sequence was generated, if any.\n\nThis value will be a non-null string if one of your custom stop sequences was generated.",
-            "title": "Stop Sequence"
+            "title": "Stop Sequence",
+            "nullable": true
           },
           "usage": {
             "allOf": [
@@ -2509,7 +2620,6 @@
             "description": "Tallies requests within the Message Batch, categorized by their status.\n\nRequests start as `processing` and move to one of the other statuses only once processing of the entire batch ends. The sum of all values always matches the total number of requests in the batch."
           },
           "ended_at": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string",
@@ -2520,7 +2630,8 @@
             "description": "RFC 3339 datetime string representing the time at which processing for the Message Batch ended. Specified only once processing ends.\n\nProcessing ends when every request in a Message Batch has either succeeded, errored, canceled, or expired.",
             "examples": [
               "2024-08-20T18:37:24.100435Z"
-            ]
+            ],
+            "nullable": true
           },
           "created_at": {
             "type": "string",
@@ -2541,7 +2652,6 @@
             ]
           },
           "archived_at": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string",
@@ -2552,10 +2662,10 @@
             "description": "RFC 3339 datetime string representing the time at which the Message Batch was archived and its results became unavailable.",
             "examples": [
               "2024-08-20T18:37:24.100435Z"
-            ]
+            ],
+            "nullable": true
           },
           "cancel_initiated_at": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string",
@@ -2566,10 +2676,10 @@
             "description": "RFC 3339 datetime string representing the time at which cancellation was initiated for the Message Batch. Specified only if cancellation was initiated.",
             "examples": [
               "2024-08-20T18:37:24.100435Z"
-            ]
+            ],
+            "nullable": true
           },
           "results_url": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
@@ -2579,7 +2689,8 @@
             "description": "URL to a `.jsonl` file containing the results of the Message Batch requests. Specified only once processing ends.\n\nResults in the file are not guaranteed to be in the same order as requests. Use the `custom_id` field to match results to requests.",
             "examples": [
               "https://api.anthropic.com/v1/messages/batches/msgbatch_013Zva2CMHLNnXjNJJKqJ2EF/results"
-            ]
+            ],
+            "nullable": true
           }
         },
         "type": "object",
@@ -2651,7 +2762,6 @@
       "BetaMessageDelta": {
         "properties": {
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -2664,17 +2774,18 @@
               }
             ],
             "default": null,
-            "title": "Stop Reason"
+            "title": "Stop Reason",
+            "nullable": true
           },
           "stop_sequence": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
               }
             ],
             "default": null,
-            "title": "Stop Sequence"
+            "title": "Stop Sequence",
+            "nullable": true
           }
         },
         "required": [
@@ -2812,7 +2923,6 @@
         "additionalProperties": false,
         "properties": {
           "user_id": {
-            "nullable": true,
             "anyOf": [
               {
                 "maxLength": 256,
@@ -2823,7 +2933,8 @@
             "examples": [
               "13803d75-b4b5-4c3e-b2a2-6f21399b021b"
             ],
-            "title": "User Id"
+            "title": "User Id",
+            "nullable": true
           }
         },
         "title": "Metadata",
@@ -2983,7 +3094,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -2999,7 +3109,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3034,7 +3145,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3050,7 +3160,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3074,7 +3185,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3090,7 +3200,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3116,7 +3227,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3132,7 +3242,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3199,7 +3310,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3215,7 +3325,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3355,7 +3466,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3371,7 +3481,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -3400,7 +3511,6 @@
         "additionalProperties": false,
         "properties": {
           "type": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -3409,7 +3519,8 @@
                 "type": "string"
               }
             ],
-            "title": "Type"
+            "title": "Type",
+            "nullable": true
           },
           "description": {
             "description": "Description of what this tool does.\n\nTool descriptions should be as detailed as possible. The more information that the model has about what the tool is and how to use it, the better it will perform. You can use natural language descriptions to reinforce important aspects of the tool input JSON schema.",
@@ -3454,7 +3565,6 @@
             ]
           },
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -3470,7 +3580,8 @@
                 ]
               }
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           }
         },
         "required": [
@@ -3566,7 +3677,6 @@
             "type": "integer"
           },
           "cache_creation_input_tokens": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "integer"
@@ -3577,10 +3687,10 @@
             "examples": [
               2051
             ],
-            "title": "Cache Creation Input Tokens"
+            "title": "Cache Creation Input Tokens",
+            "nullable": true
           },
           "cache_read_input_tokens": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "integer"
@@ -3591,7 +3701,8 @@
             "examples": [
               2051
             ],
-            "title": "Cache Read Input Tokens"
+            "title": "Cache Read Input Tokens",
+            "nullable": true
           },
           "output_tokens": {
             "description": "The number of output tokens which were used.",
@@ -3743,17 +3854,17 @@
             ]
           },
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
               }
             ],
             "title": "Stop Reason",
-            "description": "The reason that we stopped.\n\nThis may be one the following values:\n* `\"stop_sequence\"`: we reached a stop sequence — either provided by you via the `stop_sequences` parameter, or a stop sequence built into the model\n* `\"max_tokens\"`: we exceeded `max_tokens_to_sample` or the model's maximum",
+            "description": "The reason that we stopped.\n\nThis may be one the following values:\n* `\"stop_sequence\"`: we reached a stop sequence \u2014 either provided by you via the `stop_sequences` parameter, or a stop sequence built into the model\n* `\"max_tokens\"`: we exceeded `max_tokens_to_sample` or the model's maximum",
             "examples": [
               "stop_sequence"
-            ]
+            ],
+            "nullable": true
           },
           "model": {
             "$ref": "#/components/schemas/Model"
@@ -3912,7 +4023,7 @@
             "$ref": "#/components/schemas/Model"
           },
           "messages": {
-            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter — there is no `\"system\"` role for input messages in the Messages API.",
+            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter \u2014 there is no `\"system\"` role for input messages in the Messages API.",
             "items": {
               "$ref": "#/components/schemas/InputMessage"
             },
@@ -4207,14 +4318,13 @@
             "type": "string"
           },
           "properties": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "object"
               }
-              
             ],
-            "title": "Properties"
+            "title": "Properties",
+            "nullable": true
           }
         },
         "required": [
@@ -4314,7 +4424,6 @@
             "$ref": "#/components/schemas/Model"
           },
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -4325,22 +4434,21 @@
                 ],
                 "type": "string"
               }
-              
             ],
             "description": "The reason that we stopped.\n\nThis may be one the following values:\n* `\"end_turn\"`: the model reached a natural stopping point\n* `\"max_tokens\"`: we exceeded the requested `max_tokens` or the model's maximum\n* `\"stop_sequence\"`: one of your provided custom `stop_sequences` was generated\n* `\"tool_use\"`: the model invoked one or more tools\n\nIn non-streaming mode this value is always non-null. In streaming mode, it is null in the `message_start` event and non-null otherwise.",
-            "title": "Stop Reason"
+            "title": "Stop Reason",
+            "nullable": true
           },
           "stop_sequence": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
               }
-              
             ],
             "default": null,
             "description": "Which custom stop sequence was generated, if any.\n\nThis value will be a non-null string if one of your custom stop sequences was generated.",
-            "title": "Stop Sequence"
+            "title": "Stop Sequence",
+            "nullable": true
           },
           "usage": {
             "allOf": [
@@ -4376,7 +4484,6 @@
       "MessageDelta": {
         "properties": {
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -4387,21 +4494,20 @@
                 ],
                 "type": "string"
               }
-              
             ],
             "default": null,
-            "title": "Stop Reason"
+            "title": "Stop Reason",
+            "nullable": true
           },
           "stop_sequence": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
               }
-              
             ],
             "default": null,
-            "title": "Stop Sequence"
+            "title": "Stop Sequence",
+            "nullable": true
           }
         },
         "required": [
@@ -4559,19 +4665,18 @@
         "additionalProperties": false,
         "properties": {
           "user_id": {
-            "nullable": true,
             "anyOf": [
               {
                 "maxLength": 256,
                 "type": "string"
               }
-              
             ],
             "description": "An external identifier for the user who is associated with the request.\n\nThis should be a uuid, hash value, or other opaque identifier. Anthropic may use this id to help detect abuse. Do not include any identifying information such as name, email address, or phone number.",
             "examples": [
               "13803d75-b4b5-4c3e-b2a2-6f21399b021b"
             ],
-            "title": "User Id"
+            "title": "User Id",
+            "nullable": true
           }
         },
         "title": "Metadata",
@@ -4663,7 +4768,7 @@
             "$ref": "#/components/schemas/Model"
           },
           "messages": {
-            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter — there is no `\"system\"` role for input messages in the Messages API.",
+            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter \u2014 there is no `\"system\"` role for input messages in the Messages API.",
             "items": {
               "$ref": "#/components/schemas/PromptCachingBetaInputMessage"
             },
@@ -4934,7 +5039,6 @@
             "$ref": "#/components/schemas/Model"
           },
           "stop_reason": {
-            "nullable": true,
             "anyOf": [
               {
                 "enum": [
@@ -4945,22 +5049,21 @@
                 ],
                 "type": "string"
               }
-              
             ],
             "description": "The reason that we stopped.\n\nThis may be one the following values:\n* `\"end_turn\"`: the model reached a natural stopping point\n* `\"max_tokens\"`: we exceeded the requested `max_tokens` or the model's maximum\n* `\"stop_sequence\"`: one of your provided custom `stop_sequences` was generated\n* `\"tool_use\"`: the model invoked one or more tools\n\nIn non-streaming mode this value is always non-null. In streaming mode, it is null in the `message_start` event and non-null otherwise.",
-            "title": "Stop Reason"
+            "title": "Stop Reason",
+            "nullable": true
           },
           "stop_sequence": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "string"
               }
-              
             ],
             "default": null,
             "description": "Which custom stop sequence was generated, if any.\n\nThis value will be a non-null string if one of your custom stop sequences was generated.",
-            "title": "Stop Sequence"
+            "title": "Stop Sequence",
+            "nullable": true
           },
           "usage": {
             "allOf": [
@@ -5049,7 +5152,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -5064,9 +5166,9 @@
                   }
                 ]
               }
-              
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -5101,7 +5203,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -5116,9 +5217,9 @@
                   }
                 ]
               }
-              
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -5144,7 +5245,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -5159,9 +5259,9 @@
                   }
                 ]
               }
-              
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -5225,7 +5325,6 @@
         "additionalProperties": false,
         "properties": {
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -5240,9 +5339,9 @@
                   }
                 ]
               }
-              
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           },
           "type": {
             "enum": [
@@ -5323,7 +5422,6 @@
             ]
           },
           "cache_control": {
-            "nullable": true,
             "anyOf": [
               {
                 "discriminator": {
@@ -5338,9 +5436,9 @@
                   }
                 ]
               }
-              
             ],
-            "title": "Cache Control"
+            "title": "Cache Control",
+            "nullable": true
           }
         },
         "required": [
@@ -5361,34 +5459,32 @@
             "type": "integer"
           },
           "cache_creation_input_tokens": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "integer"
               }
-              
             ],
             "default": null,
             "description": "The number of input tokens used to create the cache entry.",
             "examples": [
               2051
             ],
-            "title": "Cache Creation Input Tokens"
+            "title": "Cache Creation Input Tokens",
+            "nullable": true
           },
           "cache_read_input_tokens": {
-            "nullable": true,
             "anyOf": [
               {
                 "type": "integer"
               }
-              
             ],
             "default": null,
             "description": "The number of input tokens read from the cache.",
             "examples": [
               2051
             ],
-            "title": "Cache Read Input Tokens"
+            "title": "Cache Read Input Tokens",
+            "nullable": true
           },
           "output_tokens": {
             "description": "The number of output tokens which were used.",
@@ -5864,7 +5960,7 @@
             "$ref": "#/components/schemas/Model"
           },
           "messages": {
-            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter — there is no `\"system\"` role for input messages in the Messages API.",
+            "description": "Input messages.\n\nOur models are trained to operate on alternating `user` and `assistant` conversational turns. When creating a new `Message`, you specify the prior conversational turns with the `messages` parameter, and the model then generates the next `Message` in the conversation. Consecutive `user` or `assistant` turns in your request will be combined into a single turn.\n\nEach input message must be an object with a `role` and `content`. You can specify a single `user`-role message, or you can include multiple `user` and `assistant` messages.\n\nIf the final message uses the `assistant` role, the response content will continue immediately from the content in that message. This can be used to constrain part of the model's response.\n\nExample with a single `user` message:\n\n```json\n[{\"role\": \"user\", \"content\": \"Hello, Claude\"}]\n```\n\nExample with multiple conversational turns:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"Hello there.\"},\n  {\"role\": \"assistant\", \"content\": \"Hi, I'm Claude. How can I help you?\"},\n  {\"role\": \"user\", \"content\": \"Can you explain LLMs in plain English?\"},\n]\n```\n\nExample with a partially-filled response from Claude:\n\n```json\n[\n  {\"role\": \"user\", \"content\": \"What's the Greek name for Sun? (A) Sol (B) Helios (C) Sun\"},\n  {\"role\": \"assistant\", \"content\": \"The best answer is (\"},\n]\n```\n\nEach input message `content` may be either a single `string` or an array of content blocks, where each block has a specific `type`. Using a `string` for `content` is shorthand for an array of one content block of type `\"text\"`. The following input messages are equivalent:\n\n```json\n{\"role\": \"user\", \"content\": \"Hello, Claude\"}\n```\n\n```json\n{\"role\": \"user\", \"content\": [{\"type\": \"text\", \"text\": \"Hello, Claude\"}]}\n```\n\nStarting with Claude 3 models, you can also send image content blocks:\n\n```json\n{\"role\": \"user\", \"content\": [\n  {\n    \"type\": \"image\",\n    \"source\": {\n      \"type\": \"base64\",\n      \"media_type\": \"image/jpeg\",\n      \"data\": \"/9j/4AAQSkZJRg...\",\n    }\n  },\n  {\"type\": \"text\", \"text\": \"What is in this image?\"}\n]}\n```\n\nWe currently support the `base64` source type for images, and the `image/jpeg`, `image/png`, `image/gif`, and `image/webp` media types.\n\nSee [examples](https://docs.anthropic.com/en/api/messages-examples#vision) for more input examples.\n\nNote that if you want to include a [system prompt](https://docs.anthropic.com/en/docs/system-prompts), you can use the top-level `system` parameter \u2014 there is no `\"system\"` role for input messages in the Messages API.",
             "items": {
               "$ref": "#/components/schemas/InputMessage"
             },
